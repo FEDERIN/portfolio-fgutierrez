@@ -1,0 +1,29 @@
+﻿name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main # Se ejecuta cuando subes cambios a la rama principal
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      - name: 🛠️ Install and Build
+        run: |
+          npm install
+          npm run build # Esto genera la carpeta /dist
+
+      - name: 🚀 Sync files to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./ # Usamos punto y barra porque la cuenta ya apunta a public_html
+          port: 21
