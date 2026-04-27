@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Producción
+dist/
+build/
+
+# Variables de entorno (¡CRÍTICO! No subir tus llaves de Formspree o APIs)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs y Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
