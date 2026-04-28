@@ -17,6 +17,8 @@ jobs:
         run: |
           npm install
           npm run build # Esto genera la carpeta /dist
+        env:
+          VITE_FORMSPREE_ID: ${{ secrets.VITE_FORMSPREE_ID }}
 
       - name: 🚀 Sync files to Hosting
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -25,5 +27,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./ # Usamos punto y barra porque la cuenta ya apunta a public_html
+          server-dir: ./
           port: 21
