@@ -18,6 +18,7 @@ i18n
             experience: "Experience",
             certs: "Certifications",
             contact: "Contact",
+            switch_lang: "Cambiar a Español",
           },
           hero: {
             roadmap_label: "My Journey",
@@ -32,6 +33,8 @@ i18n
               "My approach combines a user-centric reactive Frontend with a high-availability Backend, ensuring resilient systems in high-demand environments.",
             btn_exp: "Explore Experience",
             btn_contact: "Contact Now",
+            alt_text: "Federin Gutierrez - Systems Analyst & Architecture",
+            tech_tagline: "Systems Analyst // Full Stack Core",
           },
           certs: {
             title: "Certifications",
@@ -49,6 +52,9 @@ i18n
             message: "Message",
             send: "Send Message",
             placeholder: "Tell me about your project...",
+            max_chars: "Professional brief",
+            limit: "Limit: 500",
+            email_error: "Please enter a valid email address",
           },
         },
       },
@@ -61,6 +67,7 @@ i18n
             experience: "Experiencia",
             certs: "Certificaciones",
             contact: "Contacto",
+            switch_lang: "Switch to English",
           },
           hero: {
             roadmap_label: "Mi Trayectoria",
@@ -75,6 +82,8 @@ i18n
               "Mi enfoque combina un Frontend reactivo centrado en el usuario con un Backend de alta disponibilidad, garantizando sistemas resilientes en entornos de alta demanda.",
             btn_exp: "Explorar Experiencia",
             btn_contact: "Contactar Ahora",
+            alt_text: "Federin Gutierrez - Analista de Sistemas y Arquitectura",
+            tech_tagline: "Analista de Sistemas // Full Stack Core",
           },
           certs: {
             title: "Certificaciones",
@@ -92,6 +101,9 @@ i18n
             message: "Mensaje",
             send: "Enviar Mensaje",
             placeholder: "Cuéntame sobre tu proyecto...",
+            max_chars: "Breve y profesional",
+            limit: "Límite: 500",
+            email_error: "Por favor, introduce un correo electrónico válido",
           },
         },
       },

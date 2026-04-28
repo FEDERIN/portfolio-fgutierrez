@@ -1,20 +1,21 @@
-# Portfolio Professional - Senior Systems Analyst
+# 🚀 Professional Systems Portfolio | F. Gutiérrez
 
-Modern and minimalist portfolio built with **React 18** and **Vite**, featuring full bilingual support (ES/EN) and a data-driven architecture.
+High-performance bilingual structure designed with a focus on **Clean Architecture** and **Resource Optimization**. This project serves as both a professional portfolio and a technical demonstration of modern Frontend engineering capabilities.
 
-## 🚀 Tech Stack
-- **Framework:** React + Vite
-- **Styling:** Tailwind CSS
-- **Internationalization:** i18next
-- **Icons & Badges:** Optimized WebP & SVG
-- **Deployment:** GitHub Actions (CI/CD)
+## 🛠️ Tech Stack
+* **Core:** React 18 + Vite (Ultra-fast compilation)
+* **Styling:** Tailwind CSS (Utility-First architecture)
+* **Internationalization:** i18next (Dynamic ES/EN support)
+* **Services:** Formspree API with AJAX/Fetch integration
+* **Deployment:** GitHub Actions (CI/CD Pipeline) -> Namecheap Hosting
 
-## 🛠️ Key Features
-- **Dynamic Certification Hub:** Automated data normalization for LinkedIn, Udemy, and Camunda certificates.
-- **Bilingual Interface:** Real-time language switching without page reloads.
-- **Clean Architecture:** Separation of concerns between UI components and static assets.
+## 🏗️ Architectural Features
+- **Custom Hooks:** Business logic (such as form submission) decoupled from the UI to enhance maintainability and testability.
+- **Data-Driven UI:** Clean components that consume structured data from JSON files and centralized asset managers.
+- **Environment Security:** API Key management via environment variables (`.env`), injected during the Build process in the CI/CD pipeline.
+- **Advanced Validation:** Smart forms with real-time character counters, state management, and strict Regex validation.
 
-## 📦 Installation
-```bash
-npm install
-npm run dev
+## 📦 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone [your-repo-url]
