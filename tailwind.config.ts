@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+import typography from '@tailwindcss/typography';
+
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // ¡Ojo con los asteriscos!
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -11,5 +13,7 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    typography,
+  ],
 }
