@@ -56,6 +56,10 @@ i18n
             limit: "Limit: 500",
             email_error: "Please enter a valid email address",
           },
+          projects: {
+            subtitle: "GitHub Repositories",
+            readme_error: "Error loading project details. Please try again later.",
+          },
         },
       },
       es: {
@@ -105,6 +109,10 @@ i18n
             limit: "Límite: 500",
             email_error: "Por favor, introduce un correo electrónico válido",
           },
+          projects: {
+            subtitle: "Repositorios de GitHub",
+            readme_error: "Error al cargar los detalles del proyecto. Por favor, inténtalo de nuevo más tarde.",
+          }
         },
       },
     },
