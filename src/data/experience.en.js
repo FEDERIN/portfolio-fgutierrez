@@ -5,7 +5,7 @@ export const experienceEn = [
       {
         company: "Punto Ticket, Chile",
         role: "Senior Systems Analyst & Full Stack Developer",
-        period: "2023 - 2026",
+        period: "2022 - 2026",
         description:
           "Collaboration on high-scale system architecture and implementation for massive traffic ticketing platforms, under a continuous integration workflow in Azure DevOps.",
         achievements: [
@@ -14,7 +14,7 @@ export const experienceEn = [
           "Implementation of flexible frontend architectures, integrating decoupled applications (React/Vue.js) and embedded interfaces within the ASP.NET ecosystem.",
           "Resolution and tracking of complex technical tasks and requirements through the Azure Boards management platform.",
           "Performance optimization of critical APIs, achieving a 40% reduction in response times using distributed caching with Redis.",
-          "Technical leadership and team mentoring on .NET 8 standards and GitFlow workflow to ensure development traceability.",
+          "I drive team growth through the continuous sharing of knowledge and best practices in .NET 8 and GitFlow, fostering a collaborative environment where shared learning ensures the quality and traceability of our projects.",
         ],
         tech: [
           "C#",
@@ -30,7 +30,7 @@ export const experienceEn = [
       {
         company: "Indra, Peru",
         role: "Senior Technical Analyst",
-        period: "2022 - 2023",
+        period: "2022 - 2022",
         description:
           "Alignment of business process automation (BPMN) with high-level cloud native architecture.",
         achievements: [

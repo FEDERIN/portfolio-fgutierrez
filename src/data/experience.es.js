@@ -5,7 +5,7 @@ export const experienceEs = [
       {
         company: "Punto Ticket, Chile",
         role: "Analista de Sistemas Senior y Desarrollador Full Stack",
-        period: "2023 - 2026",
+        period: "2022 - 2026",
         description:
           "Colaboración en la arquitectura e implementación de sistemas de alta escala para plataformas de ticketing masivo, bajo un flujo de trabajo de integración continua en Azure DevOps.",
         achievements: [
@@ -14,7 +14,7 @@ export const experienceEs = [
           "Implementación de arquitecturas de frontend flexibles, integrando aplicaciones desacopladas (React/Vue.js) e interfaces embebidas en el ecosistema ASP.NET.",
           "Resolución y seguimiento de tareas técnicas y requerimientos complejos mediante la plataforma de gestión de Azure Boards.",
           "Optimización del rendimiento de APIs críticas, logrando una reducción del 40% en tiempos de respuesta mediante el uso de caching distribuido con Redis.",
-          "Liderazgo técnico y mentoría al equipo en estándares de .NET 8 y flujo de trabajo GitFlow para asegurar la trazabilidad de los desarrollos.",
+          "Impulso el crecimiento del equipo a través del intercambio constante de conocimientos y buenas prácticas en .NET 8 y GitFlow, fomentando un entorno colaborativo donde el aprendizaje compartido asegura la calidad y trazabilidad de nuestros proyectos.",
         ],
         tech: [
           "C#",
@@ -30,7 +30,7 @@ export const experienceEs = [
       {
         company: "Indra, Peru",
         role: "Analista Técnico Senior",
-        period: "2022 - 2023",
+        period: "2022 - 2022",
         description:
           "Alineación de la automatización de procesos (BPMN) con arquitectura cloud native de alto nivel.",
         achievements: [
