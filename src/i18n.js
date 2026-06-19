@@ -55,6 +55,9 @@ i18n
             max_chars: "Professional brief",
             limit: "Limit: 500",
             email_error: "Please enter a valid email address",
+            success_title: "Message Sent!",
+            success_msg: "Thank you for reaching out. I'll get back to you soon.",
+            send_another: "Send another message"
           },
           projects: {
             subtitle: "GitHub Repositories",
@@ -112,6 +115,9 @@ i18n
             max_chars: "Breve y profesional",
             limit: "Límite: 500",
             email_error: "Por favor, introduce un correo electrónico válido",
+            success_title: "¡Mensaje enviado!",
+            success_msg: "Gracias por contactarme. Te responderé pronto.",
+            send_another: "Enviar otro mensaje"
           },
           projects: {
             subtitle: "Repositorios de GitHub",

@@ -20,12 +20,12 @@ jobs:
         env:
           VITE_FORMSPREE_ID: ${{ secrets.VITE_FORMSPREE_ID }}
 
-      - name: 🚀 Sync files to Hosting
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ./
-          port: 21
+      # - name: 🚀 Sync files to Hosting
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      #   with:
+      #     server: ${{ secrets.FTP_SERVER }}
+      #     username: ${{ secrets.FTP_USERNAME }}
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     local-dir: ./dist/
+      #     server-dir: ./
+      #     port: 21
