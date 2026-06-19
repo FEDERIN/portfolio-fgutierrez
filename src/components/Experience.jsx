@@ -31,7 +31,7 @@ export default function Experience() {
                 <div key={index} className="relative group">
                   <div className="flex flex-col md:flex-row gap-6">
                     <div className="md:w-1/4">
-                      <span className="text-[#03DAC6] font-mono text-[11px] font-bold block mb-1">
+                      <span className="text-[#03DAC6] font-mono text-[15px] font-bold block mb-1">
                         {exp.period}
                       </span>
                       <span className="text-gray-500 text-xs font-medium">
@@ -45,7 +45,7 @@ export default function Experience() {
                         {exp.role}
                       </h5>
 
-                      <p className="text-gray-400 text-[11px] leading-relaxed mb-5 italic opacity-70">
+                      <p className="text-gray-400 text-[15px] leading-relaxed mb-5 italic opacity-70">
                         {exp.description}
                       </p>
 
@@ -53,7 +53,7 @@ export default function Experience() {
                         {exp.achievements.map((item, i) => (
                           <li
                             key={i}
-                            className="flex items-start gap-3 text-[12px] text-gray-500 leading-relaxed"
+                            className="flex items-start gap-3 text-[17px] text-gray-500 leading-relaxed"
                           >
                             <span className="text-[#03DAC6] mt-1.5 text-[10px]">
                               ▹
@@ -79,15 +79,6 @@ export default function Experience() {
             </div>
           </div>
         ))}
-        {/* <div className="mt-10 pt-10 border-t border-white/5 text-center">
-          <a 
-            href="/Federin_CV.pdf" 
-            target="_blank"
-            className="text-[#03DAC6] font-mono text-[10px] uppercase tracking-widest hover:underline"
-          >
-            Download Full Resume (PDF)
-          </a>
-        </div> */}
       </div>
     </section>
   );

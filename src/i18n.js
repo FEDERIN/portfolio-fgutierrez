@@ -60,6 +60,10 @@ i18n
             subtitle: "GitHub Repositories",
             readme_error: "Error loading project details. Please try again later.",
           },
+          packages: {
+            subtitle: "Packages",
+            readme_error: "Error loading project details. Please try again later.",
+          },
         },
       },
       es: {
@@ -111,6 +115,10 @@ i18n
           },
           projects: {
             subtitle: "Repositorios de GitHub",
+            readme_error: "Error al cargar los detalles del proyecto. Por favor, inténtalo de nuevo más tarde.",
+          },
+          packages: {
+            subtitle: "Paquetes",
             readme_error: "Error al cargar los detalles del proyecto. Por favor, inténtalo de nuevo más tarde.",
           }
         },

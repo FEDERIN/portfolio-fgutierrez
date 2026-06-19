@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechStack from './components/TechStack';
 import Projects from './components/Projects';
+import Nuget from './components/Nuget'
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <TechStack />
         <Projects />
+        <Nuget />
         <Experience />
         <Certifications />
         <Contact/>

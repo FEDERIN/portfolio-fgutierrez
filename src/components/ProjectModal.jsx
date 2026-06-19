@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+  import { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -75,7 +75,7 @@ export default function ProjectModal({ isOpen, onClose, readmePath, title }) {
               <p className="text-[#03DAC6] font-mono text-[10px] animate-pulse tracking-widest uppercase">Parsing Ecosystem...</p>
             </div>
           ) : (
-            <article className="prose prose-invert prose-emerald max-w-none 
+            <article className="prose prose-invert prose-emerald max-w-none
               prose-img:inline prose-img:m-1 
               [&_p[align='center']]:flex [&_p[align='center']]:flex-wrap [&_p[align='center']]:justify-center [&_p[align='center']]:gap-1 [&_p[align='center']]:mb-8
               prose-table:border-separate prose-table:border-spacing-0 prose-table:border prose-table:border-white/10 prose-table:rounded-xl prose-table:overflow-hidden

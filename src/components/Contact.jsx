@@ -95,7 +95,7 @@ export default function Contact() {
                 <input type="text" name="_gotcha" style={{ display: "none" }} />
 
                 <div>
-                  <label className="text-[11px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
+                  <label className="text-[15px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
                     {t("contact.name")}
                   </label>
                   <input
@@ -110,7 +110,7 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label className="text-[11px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
+                  <label className="text-[15px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
                     {t("contact.email")}
                   </label>
                   <input
@@ -126,7 +126,7 @@ export default function Contact() {
                 </div>
 
                 <div className="relative group">
-                  <label className="text-[11px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
+                  <label className="text-[15px] font-bold text-gray-500 uppercase mb-2 block tracking-widest">
                     {t("contact.message")}
                   </label>
                   <textarea
